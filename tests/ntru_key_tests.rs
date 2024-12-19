@@ -1,6 +1,6 @@
 #[cfg(test)]
 mod ntru_key_tests {
-    use ntru::{convolution_polynomial::ternary_polynomial, ntru_key::NtruKeyPair, ConvPoly};
+    use ntru_rs::{convolution_polynomial::ternary_polynomial, ntru_key::NtruKeyPair, ConvPoly};
     use rand::Rng; 
 
     #[test]

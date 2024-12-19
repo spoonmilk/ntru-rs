@@ -1,6 +1,6 @@
 #[cfg(test)]
 mod tests {
-    use ntru::convolution_polynomial::{
+    use ntru_rs::convolution_polynomial::{
         center_lift, extended_gcd, gcd, inverse, ternary_polynomial, ConvPoly,
     };
     use rand::Rng;

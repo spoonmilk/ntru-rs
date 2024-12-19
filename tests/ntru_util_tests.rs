@@ -1,6 +1,6 @@
 #[cfg(test)]
 mod ntru_util_tests {
-    use ntru::ntru_util::{deserialize, serialize};
+    use ntru_rs::ntru_util::{deserialize, serialize};
 
     #[test]
     fn test_serialize() {
